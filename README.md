@@ -39,8 +39,13 @@ I created and uploaded my package on pypi so that I could use it whenever I want
 ## So here is my solution :) 
 ## Usage:
 ###  Initalization
+```bash 
+pip install menucraft
+```
 Takes user options as an python list like this(mandatory to be inside an list): 
-```Python 
+```Python
+from menucraft.menu import Menu 
+
 instance_name = Menu(["option_1", "option_2"])
 ```
 

@@ -4,13 +4,13 @@ build-backend = "setuptools.build_meta"
 
 
 [project]
-name = "cli-menu"
+name = "menucraft"
 version = "0.0.1"
 authors = [
   { name="Eduards Abishevs", email="eduards@abishevs.dev" },
 ]
 description = "A simple package for generating menus for cli interactive programs where user input is required." 
-keywords = ["cli-menu", "cli-interactive-menu", "menu", "interactive menu"]
+keywords = ["Cli", "cli-interactive-menu", "Menu"]
 # dependencies = []
 readme = "README.md"
 requires-python = ">=3.7"
@@ -21,4 +21,5 @@ classifiers = [
 ]
 
 [project.urls]
-"Homepage" = "https://github.com/Abishevs/cli-menu"
+"Homepage" = "https://github.com/Abishevs/MenuCraft"
+"Bug Tracker" = "https://github.com/Abishevs/MenuCraft/issues"
