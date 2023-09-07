@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+
+[project]
+name = "cli-menu"
+version = "0.0.1"
+authors = [
+  { name="Eduards Abishevs", email="eduards@abishevs.dev" },
+]
+description = "A simple package for generating menus for cli interactive programs where user input is required." 
+keywords = ["cli-menu", "cli-interactive-menu", "menu", "interactive menu"]
+# dependencies = ["phevaluator==0.5.2"]
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/Abishevs/cli-menu"
